@@ -1,0 +1,11 @@
+@use '../utils' as *;
+
+.header {
+  padding: rem(15px) 0;
+  background-color: #fd8061b0;
+  @include breakpoint-down('medium') {
+    padding: rem(8px) 0;
+}
+}
+
+

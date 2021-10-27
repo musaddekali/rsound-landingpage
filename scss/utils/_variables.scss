@@ -1,0 +1,26 @@
+// Colors
+$mono100: #2e2f37;
+$purple80: #1c1e52;
+$yellow50: #fd8061;
+$mono00: #f9faff;
+$white : #ffffff;
+$dark : #000000;
+$gray : #808080;
+
+$primary: $mono100;
+$secondary: $yellow50;
+$accent: $purple80;
+
+// grid breakpoints
+$breakpoints-up: (
+  "small": 768px,
+  "medium": 992px,
+  "large": 1200px,
+) !default;
+
+$breakpoints-down: (
+  "xsmall": 575px,
+  "small": 767px,
+  "medium": 991px,
+  "large": 1199px,
+) !default;

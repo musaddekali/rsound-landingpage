@@ -1,0 +1,31 @@
+// slide down
+.slide-down {
+  -webkit-animation: slide-down 0.5s;
+  animation: slide-down 0.5s;
+  -webkit-transform-origin: top;
+  -ms-transform-origin: top;
+  transform-origin: top;
+  overflow: hidden;
+}
+
+@-webkit-keyframes slide-down {
+  from {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+  to {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    -webkit-transform: scaleY(0);
+    transform: scaleY(0);
+  }
+  to {
+    -webkit-transform: scaleY(1);
+    transform: scaleY(1);
+  }
+}

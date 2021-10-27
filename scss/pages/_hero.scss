@@ -1,0 +1,48 @@
+@use '../utils' as *;
+
+.hero {
+  min-height: 100vh;
+  background: url("../images/hero-bg.png"), url("../images/hero-bg.svg"),
+    #f9faff;
+  background-repeat: no-repeat;
+  background-size: 60%, contain;
+  background-position: right bottom;
+  @include breakpoint-down("medium") {
+    background: url("../images/hero-bg.svg"), #f9faff;
+    background-size: cover;
+    background-position: center;
+  }
+  display: flex;
+  align-items: center;
+
+  .hero-text {
+    h1 {
+      margin-bottom: rem(24px);
+      width: 50%;
+      font : {
+        size: rem(48px);
+        weight: 700;
+      }
+      line-height: rem(64px);
+      @include breakpoint-down("medium") {
+        width: 100%;
+        color: $white;
+        font-size: rem(40px);
+        line-height: rem(48px);
+      }
+    }
+  }
+
+  .get-free-cta {
+    font-size: rem(16px);
+    display: inline-block;
+    color: $white;
+    padding: 8px 24px;
+    background: $secondary;
+    border-radius: 50px;
+
+    &:hover {
+      background: lighten($secondary, 5);
+    }
+  }
+}
