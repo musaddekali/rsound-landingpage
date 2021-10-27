@@ -21,7 +21,7 @@
       width: 50%;
       font : {
         size: rem(48px);
-        weight: 700;
+        weight: 600;
       }
       line-height: rem(64px);
       @include breakpoint-down("medium") {
@@ -29,6 +29,12 @@
         color: $white;
         font-size: rem(40px);
         line-height: rem(48px);
+      }
+
+      span {
+        font-family: Caveat;
+        font-weight: 700;
+        color: $secondary;
       }
     }
   }

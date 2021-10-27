@@ -236,7 +236,7 @@ ol {
   margin-bottom: 1.5rem;
   width: 50%;
   font-size: 3rem;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 4rem;
 }
 @media (max-width: 991px) {
@@ -246,6 +246,11 @@ ol {
     font-size: 2.5rem;
     line-height: 3rem;
   }
+}
+.hero .hero-text h1 span {
+  font-family: Caveat;
+  font-weight: 700;
+  color: #fd8061;
 }
 .hero .get-free-cta {
   font-size: 1rem;
