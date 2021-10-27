@@ -248,7 +248,7 @@ ol {
   }
 }
 .hero .hero-text h1 span {
-  font-family: Caveat;
+  font-family: "Caveat", sans-serif, serif;
   font-weight: 700;
   color: #fd8061;
 }
