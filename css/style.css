@@ -227,7 +227,7 @@ ol {
 }
 @media (max-width: 991px) {
   .hero {
-    background: url("../images/hero-bg.svg"), #f9faff;
+    background: url("../images/hero-bg.svg"), #fd8061;
     background-size: cover;
     background-position: center;
   }

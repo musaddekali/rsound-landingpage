@@ -8,7 +8,7 @@
   background-size: 60%, contain;
   background-position: right bottom;
   @include breakpoint-down("medium") {
-    background: url("../images/hero-bg.svg"), #f9faff;
+    background: url("../images/hero-bg.svg"), $secondary;
     background-size: cover;
     background-position: center;
   }
